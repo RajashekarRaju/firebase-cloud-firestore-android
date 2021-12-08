@@ -26,7 +26,6 @@ abstract class FirestoreAdapter<VH : RecyclerView.ViewHolder>(
         }
 
         snapshots.clear()
-        notifyDataSetChanged()
     }
 
     override fun onEvent(
